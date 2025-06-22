@@ -17,18 +17,18 @@ This was part of my personal learning journey in geospatial development using Py
 ---
 
 ## 📂 Project Structure
-pythonGIS buffer and clip automation/
-├── data/
-│   ├── Kumasi_SubMetros.shp
-│   ├── police_stations.shp
-├── outputs/
-│   ├── buffered_clipped_stations.shp
-│   ├── buffered_map.png
-│   └── station_counts.csv (optional)
-├── scripts/
-│   └── buffer_clip.py
-├── README.md
-└── .gitignore
+
+- data/
+    - Kumasi_SubMetros.shp
+    - police_stations.shp
+- outputs/
+    - buffered_clipped_stations.shp
+    - buffered_map.png
+    - station_counts.csv (optional)
+- scripts/
+    - buffer_clip.py
+- README.md
+- .gitignore
 
 ---
 
@@ -51,6 +51,19 @@ pythonGIS buffer and clip automation/
 **📄 License**
 
 This project is licensed under the MIT License — free to use, modify, and contribute to.
+
+**📦 Project Housekeeping**
+
+This project includes a .gitignore file to ensure a clean, organized repository by excluding unnecessary or sensitive files from version control.
+
+📌 Files and folders excluded:
+	•	Virtual environments (venv/, gispro/)
+	•	macOS system files (.DS_Store)
+	•	Python cache files (__pycache__/, *.pyc)
+	•	QGIS backup files (*.qgz~)
+	•	Large output files (shapefiles, images, CSVs under outputs/)
+
+This helps keep the repository lightweight, professional, and focused on the core scripts and resources.
 
 # Contributing
 
