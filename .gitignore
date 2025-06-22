@@ -1,0 +1,22 @@
+# Ignore virtual environments
+venv/
+gispro/
+.gispro/
+
+# macOS system files
+.DS_Store
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Output files (if you don't want to track them)
+outputs/*.shp
+outputs/*.shx
+outputs/*.dbf
+outputs/*.prj
+outputs/*.png
+outputs/*.csv
+
+# QGIS project backup files
+*.qgz~
