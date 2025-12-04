@@ -77,5 +77,5 @@ To contribute:
 
 # Acknowledgments
 
-Built with ❤️ by [Barbara Nyame](https://github.com/BarbaraNyame) and open-source contributors.
+Built by [Barbara Nyame](https://github.com/BarbaraNyame) and open-source contributors.
 
